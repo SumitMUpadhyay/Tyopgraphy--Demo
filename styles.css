@@ -1,0 +1,111 @@
+/* font-size - size of the fonts 
+font-family - describes the font of the element
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,500&display=swap');
+
+/* body { */
+/* font-family: Arial, Helvetica, sans-serif; */
+/* font-family: 'Roboto', sans-serif;
+} */
+
+/* h1 { */
+/* font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 50px; */
+/* } */
+
+/* font-weight how thick or thick characters in text should be 
+font -style sets font style for a text
+ */
+
+/* body {
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+} */
+
+/* .main-heading {
+  font-family: 'Trade Winds', cursive;
+} */
+
+/* .sub-heading { */
+/* font-style: italic; */
+/* } */
+
+/* .one {
+  font-weight: bold;
+} */
+
+/* .two { */
+/* font-weight: lighter;
+  font-style: italic;
+  font-style: oblique; */
+/* font-style: normal;
+} */
+
+/* text align, text -indent */
+
+/* body {
+  font-family: 'Roboto', sans-serif;
+  text-align: right;
+  text-align: center;
+  text-align: left;
+} */
+/* 
+.main-heading {
+  font-family: 'Trade Winds', cursive;
+  text-align: center;
+} */
+
+/* .sub-heading {
+} */
+
+/* .one {
+} */
+
+/* .two {
+  text-align: left;
+  text-indent: 50px;
+} */
+
+/* line -height -if number * by font-size
+letter -spacing
+word-spacing
+text- transform
+text-decoration */
+
+a {
+  font-size: 3rem;
+  text-decoration: none;
+}
+body {
+  /* line-height: 30px; */
+  /* line-height: 40px; */
+  /* line- height: 2px; */
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+/* h1 {
+  font-size: 40px;
+} */
+
+h1 {
+  /* text-decoration: underline;
+  text-decoration: line-through; */
+  text-transform: uppercase;
+}
+
+.one {
+  /* letter-spacing: 5px; */
+  letter-spacing: 0.5rem;
+  line-height: 2.5;
+  text-decoration: overline;
+}
+
+.two {
+  word-spacing: 10px;
+}
+
+.three {
+  text-transform: capitalize;
+}
